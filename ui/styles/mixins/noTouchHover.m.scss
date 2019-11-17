@@ -1,0 +1,7 @@
+@mixin noTouchHover() {
+  :global(.no-touch) & {
+    &:hover {
+      @content
+    }
+  }
+}

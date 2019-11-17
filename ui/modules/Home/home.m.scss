@@ -1,0 +1,23 @@
+@import "../../styles/keyframes/flip.m.scss";
+
+$logoColor: #000;
+$logoWidth: 160px;
+
+.static {
+  display: table;
+  width: 100%;
+  height: 100%;
+  overflow: hidden
+}
+
+.staticContainer {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle
+}
+
+.logo {
+  display: inline-block;
+  width: $logoWidth;
+  fill: $logoColor;
+}
